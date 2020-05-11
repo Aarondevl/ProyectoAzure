@@ -22,7 +22,7 @@ class Welcome extends CI_Controller {
 	{
 		// $this->load->view('welcome_message');
 
-		$sql = "SELECT * FROM PRODUCTO";
+		$sql = "SELECT * FROM producto";
 
 		$data = $this->db->query($sql)->result_array();
 
